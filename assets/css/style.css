@@ -57,4 +57,8 @@ header nav div.container-fluid div.btn-group div#avatar img {
 header nav div.container-fluid ul {
   left: unset !important;
   right: 0%;
+}
+
+section div.d-flex.gap-5 div.btn-group {
+  min-width: 130px;
 }/*# sourceMappingURL=style.css.map */

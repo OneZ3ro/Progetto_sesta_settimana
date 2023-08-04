@@ -62,3 +62,11 @@ header {
     }
   }
 }
+
+section {
+  div.d-flex.gap-5 {
+    div.btn-group {
+      min-width: 130px;
+    }
+  }
+}
