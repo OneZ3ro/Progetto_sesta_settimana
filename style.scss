@@ -1,0 +1,64 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+}
+
+body {
+  background-color: #141414;
+  color: white;
+}
+
+header {
+  nav {
+    position: relative;
+    div.container-fluid {
+      div#navbarNavDropdown {
+        text-align: end;
+        position: absolute;
+        left: 150px;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        @media screen and (max-width: 992px) {
+          right: 25px;
+          top: 100%;
+          transform: translateY(0%);
+        }
+      }
+      div.navbar-brand {
+        height: 60px;
+        img {
+          height: 100%;
+        }
+      }
+      div.btn-group {
+        div#avatar {
+          height: 45px;
+          width: 45px;
+          img {
+            height: 100%;
+            width: 100%;
+          }
+        }
+      }
+      ul {
+        left: unset !important;
+        right: 0%;
+      }
+    }
+  }
+}
