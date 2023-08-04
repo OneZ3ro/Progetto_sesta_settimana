@@ -103,6 +103,9 @@ section div.d-flex.gap-5 div.btn-group {
   min-width: 130px;
 }
 
+footer {
+  color: #666666;
+}
 footer div.container {
   position: relative;
 }
@@ -110,10 +113,17 @@ footer div.container > div svg {
   height: 35px;
   width: 35px;
 }
-footer div.container::after {
+footer div.container a {
+  color: #666666;
+  text-decoration: none;
+}
+footer div.container button {
+  position: relative;
+}
+footer div.container button::after {
   content: "";
   position: absolute;
-  inset: 0;
+  inset: -2px;
   background-color: #141414;
-  opacity: 65%;
+  opacity: 70%;
 }/*# sourceMappingURL=style.css.map */

@@ -125,6 +125,7 @@ section {
 }
 
 footer {
+  color: #666666;
   div.container {
     position: relative;
     & > div {
@@ -133,12 +134,19 @@ footer {
         width: 35px;
       }
     }
-    &::after {
-      content: "";
-      position: absolute;
-      inset: 0;
-      background-color: #141414;
-      opacity: 65%;
+    a {
+      color: #666666;
+      text-decoration: none;
+    }
+    button {
+      position: relative;
+      &::after {
+        content: "";
+        position: absolute;
+        inset: -2px;
+        background-color: #141414;
+        opacity: 70%;
+      }
     }
   }
 }
