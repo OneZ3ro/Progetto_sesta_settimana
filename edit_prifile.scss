@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
 *,
 *::before,
 *::after {
@@ -20,6 +22,7 @@ img {
 body {
   background-color: #141414;
   color: white;
+  font-family: "Roboto", sans-serif;
 }
 
 header {
@@ -52,14 +55,18 @@ main {
           div {
             &.dropdown {
               button {
+                letter-spacing: 1.5px;
                 width: 100%;
                 text-align: left;
-                font-weight: 500;
+                font-size: 20px;
               }
             }
             &:nth-of-type(2) {
               div {
                 width: 130px;
+                button {
+                  letter-spacing: 1.5px;
+                }
               }
             }
           }
@@ -69,9 +76,12 @@ main {
             &:first-of-type {
               background-color: #353535;
               font-weight: 500;
+              letter-spacing: 2px;
             }
             &:nth-of-type(2) {
               position: relative;
+              padding: 5px 20px;
+              letter-spacing: 3px;
             }
           }
         }
@@ -89,6 +99,7 @@ main {
     div#under-all-container {
       width: 100%;
       button {
+        letter-spacing: 3px;
         &:nth-of-type(2),
         &:nth-of-type(3) {
           position: relative;
@@ -96,6 +107,12 @@ main {
       }
     }
   }
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
 }
 
 .bordo-grigio {
@@ -117,7 +134,7 @@ h4 {
   &::after {
     content: "";
     position: absolute;
-    inset: -1px;
+    inset: -2px;
     background-color: #141414;
     opacity: 70%;
   }
