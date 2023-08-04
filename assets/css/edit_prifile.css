@@ -29,7 +29,67 @@ header nav div.navbar-brand img {
   height: 100%;
 }
 
+main {
+  height: calc(100vh - 80px);
+}
 main div#max-width {
   max-width: 700px;
   margin-inline: auto;
+}
+main div#max-width div#all-container div#img-avatar {
+  height: 130px;
+  width: 130px;
+}
+main div#max-width div#all-container div#img-avatar img {
+  height: 100%;
+  width: 100%;
+}
+main div#max-width div#all-container div#kinda-form div#first-part div.dropdown button {
+  width: 100%;
+  text-align: left;
+  font-weight: 500;
+}
+main div#max-width div#all-container div#kinda-form div#first-part div:nth-of-type(2) div {
+  width: 130px;
+}
+main div#max-width div#all-container div#kinda-form div#second-part button:first-of-type {
+  background-color: #353535;
+  font-weight: 500;
+}
+main div#max-width div#all-container div#kinda-form div#second-part button:nth-of-type(2) {
+  position: relative;
+}
+main div#max-width div#all-container div#kinda-form div#third-part div input {
+  height: 30px;
+  width: 30px;
+  border: 1px solid #353535;
+}
+main div#max-width div#under-all-container {
+  width: 100%;
+}
+main div#max-width div#under-all-container button:nth-of-type(2), main div#max-width div#under-all-container button:nth-of-type(3) {
+  position: relative;
+}
+
+.bordo-grigio {
+  border-bottom: 1px solid #353535;
+}
+
+h4 {
+  position: relative;
+}
+h4::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: #141414;
+  opacity: 50%;
+}
+
+.scurito::after {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  background-color: #141414;
+  opacity: 70%;
 }/*# sourceMappingURL=edit_prifile.css.map */
